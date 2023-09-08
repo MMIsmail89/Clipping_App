@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ClippingApp" parent="Theme.MaterialComponents.Light">
+
+        <!-- Customize the toolbar color -->
+        <!--  Set the primary color (usually the toolbar color) to green -->
+           <item name="android:colorPrimary">@color/greenColor</item>
+
+        <!-- Set the primary dark color (status bar color) to orange -->
+           <item name="android:colorPrimaryDark">@color/orangeColor</item>
+
+    </style>
+
+    <style name="Theme.ClippingApp" parent="Base.Theme.ClippingApp" />
+</resources>
